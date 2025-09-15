@@ -19,7 +19,7 @@ class CustomHandler(http.server.SimpleHTTPRequestHandler):
             html_content = f"""
             <html>
                 <body>
-                    <h1>Cache Test Server</h1>
+                    <h1>Cache Test Server #2</h1>
                     <p>Server started at: {datetime.now()}</p>
                     <p>Testing Docker cache mount functionality</p>
                     <p>If cache works, pip packages should install faster on rebuilds</p>
